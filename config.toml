@@ -1,0 +1,4 @@
+baseURL = "http://example.org/"
+//https://adoring-cori-892679.netlify.com/
+languageCode = "en-us"
+title = "My New Hugo Site"
