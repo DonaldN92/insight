@@ -1,24 +1,557 @@
-<div class="col s6">
-    <h2 class="header">{{ .name }}</h2>
-    <div class="card horizontal">
-        <div class="card-image">
-        <img src="{{ .image }}">
+<!-- ***** Wellcome Area Start ***** -->
+    <section class="wellcome_area clearfix" id="home">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-md">
+                    <div class="wellcome-heading">
+                        <h2>InSight</h2>
+                        <h3>I</h3>
+                        <p><b>V</b>ecteur de <b>P</b>erformance</p>
+                    </div>
+                    <div class="get-start-area">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="card-stacked">
-        <div class="card-content">
-            <p>{{ .description }}</p>
+        <!-- Welcome thumb -->
+        <div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
+            <img src="img/bg-img/welcome-img.png" alt="">
         </div>
-        <div class="card-action">
-            <button
-                class="snipcart-add-item waves-effect waves-light btn"
-                data-item-id="{{ .id }}"
-                data-item-name="{{ .name }}"
-                data-item-price="{{ .price }}"
-                data-item-url="{{ .url }}">
-                    <i class="material-icons right">shopping_cart</i>
-                    Add to cart
-            </button>
+    </section>
+    <!-- ***** Wellcome Area End ***** -->
+
+    <!-- ***** Special Area Start ***** -->
+    <section class="special-area bg-white section_padding_100" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading Area -->
+                    <div class="section-heading text-center">
+                        <h2>Pourquoi est-ce spécial</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="single-icon">
+                            <i class="ti-mobile" aria-hidden="true"></i>
+                        </div>
+                        <h4>Qualité</h4>
+                        <p>Qualité et amélioration continue</p>
+                    </div>
+                </div>
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="single-icon">
+                            <i class="ti-ruler-pencil" aria-hidden="true"></i>
+                        </div>
+                        <h4>Ressources Humaines</h4>
+                        <p>Ressources Humaines et gestion de compétence</p>
+                    </div>
+                </div>
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="single-icon">
+                            <i class="ti-settings" aria-hidden="true"></i>
+                        </div>
+                        <h4>Efficacité</h4>
+                        <p>Efficacité industrielle</p>
+                    </div>
+                </div>
+            </div>
         </div>
+        <!-- Special Description Area -->
+        <div class="special_description_area mt-150">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="special_description_img">
+                            <img src="img/bg-img/special.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-5 ml-xl-auto">
+                        <div class="special_description_content">
+                            <h2>Insight!</h2>
+                            <p>INSIGHT met à votre disposition des solutions de veille dont l'objectif est de vous accompagner sur la voie de la performance</br></br>
+                            Nos vecteurs de performance font l'objet de formation continue, coaching et accompagnement à la demande</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Special Area End ***** -->
+
+    <!-- ***** Awesome Features Start ***** -->
+    <section class="awesome-feature-area bg-white section_padding_0_50 clearfix" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Heading Text -->
+                    <div class="section-heading text-center">
+                        <h2>Avantages de la stratégie de coaching</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-user" aria-hidden="true"></i>
+                        <h5>Positionnement</h5>
+                        <p>La clarification du positionnement de l’entreprise par rapport à ses marchés et son relationnel en général.</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-pulse" aria-hidden="true"></i>
+                        <h5>Précision</h5>
+                        <p>La détermination précise de la mission de chacun des services de l’entreprise.</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-dashboard" aria-hidden="true"></i>
+                        <h5>Projection</h5>
+                        <p>La précision de la projection dans le temps de l’avenir de l’entreprise</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-palette" aria-hidden="true"></i>
+                        <h5>Accompagnement</h5>
+                        <p>L’accompagnement du personnel  et le recadrage de ceux qui en ont besoin</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-crown" aria-hidden="true"></i>
+                        <h5>Améliorer le relationnel</h5>
+                        <p>Améliorer le relationnel au sein d’une équipe, avec un supérieur hiérarchique...</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-headphone" aria-hidden="true"></i>
+                        <h5>Vision</h5>
+                        <p>Prendre du recul, avoir une vision plus claire d’une situation parfois complexe</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ***** Awesome Features End ***** -->
+
+    <!-- ***** Video Area Start ***** -->
+    <div class="video-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Video Area Start -->
+                    <div class="video-area" style="background-image: url(img/bg-img/video.jpg);">
+                        <div class="video-play-btn">
+                            <a href="https://www.youtube.com/watch?v=f5BBJ4ySgpo" class="video_btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
+    <!-- ***** Video Area End ***** -->
+
+    <!-- ***** Cool Facts Area Start ***** -->
+    <section class="cool_facts_area clearfix">
+        <div class="container">
+            <div class="row">
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="counter-area">
+                            <h3><span class="counter">40</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-arrow-down-a"></i>
+                            <p>Entreprises <br> Partenaires</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="counter-area">
+                            <h3><span class="counter">120</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-happy-outline"></i>
+                            <p>Personnes <br> Satisfaites</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="counter-area">
+                            <h3><span class="counter">5</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-person"></i>
+                            <p>Séances <br>Mensuelles</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="counter-area">
+                            <h3><span class="counter">10</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-ios-star-outline"></i>
+                            <p>TOTAL <br>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Cool Facts Area End ***** -->
+
+    <!-- ***** App Screenshots Area Start ***** -->
+    <section class="app-screenshots-area bg-white section_padding_0_100 clearfix" id="screenshot">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <!-- Heading Text  -->
+                    <div class="section-heading">
+                        <h2>Galéries</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <!-- App Screenshots Slides  -->
+                    <div class="app_screenshots_slides owl-carousel">
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-1.jpg" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-2.jpg" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-3.jpg" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-4.jpg" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-5.jpg" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** App Screenshots Area End *****====== -->
+
+    <!-- ***** CTA Area Start ***** -->
+    <section class="our-monthly-membership section_padding_50 clearfix">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <div class="membership-description">
+                        <h2>Témoignages</h2>
+                        <p>Votre avis compte</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** CTA Area End ***** -->
+        
+    <!-- ***** Client Feedback Area Start ***** -->
+    <section class="clients-feedback-area bg-white section_padding_100 clearfix" id="testimonials">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10">
+                    <div class="slider slider-for">
+                        <!-- Client Feedback Text  -->
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Aigars Silkalns</h5>
+                                <p>Ceo Colorlib</p>
+                            </div>
+                        </div>
+                        <!-- Client Feedback Text  -->
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Jennifer</h5>
+                                <p>Developer</p>
+                            </div>
+                        </div>
+                        <!-- Client Feedback Text  -->
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job.”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Helen</h5>
+                                <p>Marketer</p>
+                            </div>
+                        </div>
+                        <!-- Client Feedback Text  -->
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Henry smith</h5>
+                                <p>Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Client Thumbnail Area -->
+                <div class="col-12 col-md-6 col-lg-5">
+                    <div class="slider slider-nav">
+                        <div class="client-thumbnail">
+                            <img src="img/bg-img/client-3.jpg" alt="">
+                        </div>
+                        <div class="client-thumbnail">
+                            <img src="img/bg-img/client-2.jpg" alt="">
+                        </div>
+                        <div class="client-thumbnail">
+                            <img src="img/bg-img/client-1.jpg" alt="">
+                        </div>
+                        <div class="client-thumbnail">
+                            <img src="img/bg-img/client-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Client Feedback Area End ***** -->
+
+
+    <!-- ***** Our Team Area Start ***** -->
+    <section class="our-Team-area bg-white section_padding_100_50 clearfix" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <!-- Heading Text  -->
+                    <div class="section-heading">
+                        <h2>Notre équipe</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/team-1.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>Jackson Nash</h4>
+                            <p>Tax Advice</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/team-2.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>Alex Manning</h4>
+                            <p>CEO-Founder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/team-3.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>Ollie Schneider</h4>
+                            <p>Business Planner</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/team-4.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>Roger West</h4>
+                            <p>Financer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Our Team Area End ***** -->
+
+    <!-- ***** Contact Us Area Start ***** -->
+    <section class="footer-contact-area section_padding_100 clearfix" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Heading Text  -->
+                    <div class="section-heading">
+                        <h2>Prenez contact avec nous!</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                    <div class="footer-text">
+                        <p>Nous vous enverrons des blogs hebdomadaires épiques, des livres blancs et d'autres choses pour que votre application démarre, GRATUITEMENT!</p>
+                    </div>
+                    <div class="address-text">
+                        <p><span>Adresse:</span> BP: 815 Douala</p>
+                    </div>
+                    <div class="phone-text">
+                        <p><span>Téléphone:</span> 00237 243 384 768</p>
+                    </div>
+                    <div class="email-text">
+                        <p><span>Email:</span> insight2017@outlock.fr</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <!-- Form Start-->
+                    <div class="contact_from">
+                        <form action="#" method="post">
+                            <!-- Message Input Area Start -->
+                            <div class="contact_input_area">
+                                <div class="row">
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="name" id="name" placeholder="Votre nom" required>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Votre E-mail" required>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Votre Message *" required></textarea>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-12">
+                                        <button type="submit" class="btn submit-btn">Envoyer maintenant</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Message Input Area End -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Contact Us Area End ***** -->
